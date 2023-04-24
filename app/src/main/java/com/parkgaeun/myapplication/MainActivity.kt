@@ -2,7 +2,11 @@ package com.parkgaeun.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.CountDownTimer
+import android.os.Handler
+import android.os.HandlerThread
 import android.util.Log
+import com.google.firebase.BuildConfig
 import com.google.firebase.auth.FirebaseAuth
 import com.parkgaeun.myapplication.databinding.ActivityMainBinding
 
